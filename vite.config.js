@@ -4,8 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Saas-Landing-Page/',
   plugins: [react(), tailwindcss()],
+  base: '/SaaS-Landing-Page/',
 })
-
 

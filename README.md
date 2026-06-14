@@ -1,16 +1,108 @@
-# React + Vite
+# Tasflow SaaS Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive SaaS landing page for **Tasflow**, an AI-powered task management platform. The project is built with React, Vite, and Tailwind CSS, and includes a polished marketing layout with hero content, feature cards, testimonials, pricing, FAQ, email capture, and footer navigation.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive landing page design
+- Sticky navigation bar
+- Hero section with product messaging and metrics
+- Feature highlights for SaaS product benefits
+- Interactive testimonial switcher
+- Pricing cards with billing toggle
+- Expandable FAQ section
+- Email validation form
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- Tailwind CSS
+- JavaScript
+- ESLint
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+Saas-Landing-Page/
+|-- public/
+|-- src/
+|   |-- components/
+|   |   |-- AnimatedCounter.jsx
+|   |   |-- CTA.jsx
+|   |   |-- EmailForm.jsx
+|   |   |-- FAQ.jsx
+|   |   |-- Features.jsx
+|   |   |-- Footer.jsx
+|   |   |-- Hero.jsx
+|   |   |-- Pricing.jsx
+|   |   `-- Testimonials.jsx
+|   |-- App.jsx
+|   |-- index.css
+|   `-- main.jsx
+|-- index.html
+|-- package.json
+|-- vite.config.js
+`-- README.md
+```
+
+## Getting Started
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in the terminal, usually:
+
+```text
+http://localhost:5173/
+```
+
+## Available Scripts
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build the project for production:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+Run ESLint:
+
+```bash
+npm run lint
+```
+
+## Customization
+
+Most of the page content is stored in reusable React components inside `src/components`. Update these files to change copy, pricing, FAQ content, testimonials, and call-to-action sections.
+
+Global styling and Tailwind setup are handled in:
+
+```text
+src/index.css
+vite.config.js
+```
+
+## License
+
+This project is available for personal and educational use.
